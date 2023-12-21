@@ -48,7 +48,7 @@ const Navbar = () => {
           <Link to={"/Service"}>Service</Link>
           <Link to={"/Contact"}>Contact</Link>
           <Link
-            className=" bg-orange_primary text-center py-3 rounded-full font-bold"
+            className=" bg-orange_primary active:ring ring-orange-300 text-center py-3 rounded-full font-bold"
             to={"/Login"}
           >
             Login
