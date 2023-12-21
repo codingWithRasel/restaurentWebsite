@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className="flex rounded-full border-orange_primary px-1 w-32 items-center  border-2">
           <input
-            className=" w-full bg-transparent outline-none text-white px-1"
+            className=" w-full text-xs bg-transparent outline-none text-white p-1"
             type="text"
             name="search"
             id="search"
