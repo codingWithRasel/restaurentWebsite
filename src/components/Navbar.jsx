@@ -14,12 +14,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="flex rounded-full border-orange_primary px-1 w-36 items-center  border-2">
-          <form
-            onSubmit={(e) => {
-              e.preventDefault(), console.log("submitted");
-              alert();
-            }}
-          >
+          <form>
             <input
               className=" w-full text-xs bg-transparent outline-none text-white p-1"
               type="text"
