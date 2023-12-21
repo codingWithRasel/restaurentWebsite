@@ -14,12 +14,19 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="flex rounded-full border-orange_primary px-1 w-36 items-center  border-2">
-          <input
-            className=" w-full text-xs bg-transparent outline-none text-white p-1"
-            type="text"
-            name="search"
-            id="search"
-          />
+          <form
+            onSubmit={(e) => {
+              e.preventDefault(), console.log("submitted");
+              alert();
+            }}
+          >
+            <input
+              className=" w-full text-xs bg-transparent outline-none text-white p-1"
+              type="text"
+              name="search"
+              id="search"
+            />
+          </form>
           <span>
             <img className=" w-5" src={search_logo} alt="logo" />
           </span>
