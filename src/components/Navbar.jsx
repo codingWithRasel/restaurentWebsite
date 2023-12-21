@@ -6,7 +6,7 @@ import hamburg_logo from "../assets/image/hamburg_logo.png";
 const Navbar = () => {
   return (
     <header className=" bg-dark_1 shadow ">
-      <div className=" container mx-auto px-4 flex justify-between items-center h-14">
+      <div className=" container mx-auto px-3 flex justify-between items-center h-14">
         <div>
           <img src={logo} alt="logo" />
         </div>
