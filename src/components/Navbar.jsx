@@ -6,19 +6,19 @@ import hamburg_logo from "../assets/image/hamburg_logo.png";
 const Navbar = () => {
   return (
     <header className=" bg-dark_1 shadow ">
-      <div className=" container mx-auto px-5 flex justify-between items-center h-12">
+      <div className=" container mx-auto px-4 flex justify-between items-center h-14">
         <div>
           <img src={logo} alt="logo" />
         </div>
         <div className="flex rounded-full border-orange_primary px-1 w-32 items-center  border-2">
           <input
-            className=" w-full bg-transparent"
+            className=" w-full bg-transparent outline-none text-white px-1"
             type="text"
             name="search"
             id="search"
           />
           <span>
-            <img src={search_logo} alt="logo" />
+            <img className=" w-5" src={search_logo} alt="logo" />
           </span>
         </div>
         <div className=" flex gap-2">
