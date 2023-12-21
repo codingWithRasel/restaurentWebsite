@@ -2,9 +2,6 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      desk: "375px",
-    },
     extend: {
       colors: {
         orange_primary: " #F16214",
@@ -26,6 +23,9 @@ export default {
         robot: "'Roboto', sans-serif",
         imperial: "'Imperial Script', cursive",
         mont: "Montserrat', sans-serif",
+      },
+      screens: {
+        desk: "375px",
       },
     },
   },
