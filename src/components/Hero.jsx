@@ -7,7 +7,7 @@ const Hero = () => {
       <div className=" container mx-auto px-3 py-9 sm:px-10 md:py-40">
         <div className=" space-y-2 md:space-y-0">
           <div className=" flex flex-col items-center gap-y-3 md:flex-row md:justify-between">
-            <div className="flex flex-col items-center gap-3 md:flex-1   md:items-start md:gap-10">
+            <div className="flex flex-col items-center gap-3 md:max-w-[450px]   md:flex-1 md:items-start md:gap-10">
               <h3 className=" text-lg md:text-[40px]">Welcome To Foodi</h3>
               <h1
                 className=" px-14 text-center text-2xl font-bold md:px-0
@@ -29,8 +29,12 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="flex-1">
-              <img className="md:ml-20" src={hero_slide_1} alt="hero_image" />
+            <div className=" flex flex-1 lg:justify-end">
+              <img
+                className=" inline-block md:ml-20"
+                src={hero_slide_1}
+                alt="hero_image"
+              />
             </div>
           </div>
           {/* formobile */}
