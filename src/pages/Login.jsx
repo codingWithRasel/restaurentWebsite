@@ -8,8 +8,8 @@ import { FaFacebook } from "react-icons/fa";
 
 const Login = () => {
   return (
-    <div className=" flex h-screen  items-center justify-center">
-      <div className="container mx-auto rounded-md px-3 shadow-inner sm:max-w-[400px] sm:px-5">
+    <div className=" flex min-h-[90vh]  items-center justify-center">
+      <div className="container mx-auto rounded-md border px-3  sm:max-w-[400px] sm:px-5">
         <div
           className=" flex flex-col gap-10
          py-5 "
@@ -67,7 +67,7 @@ const Login = () => {
           <div className=" self-end ">
             <p>
               Don't have an accout?{" "}
-              <Link className=" text-orange_primary" to={"./SignUp"}>
+              <Link className=" text-lg text-orange_primary" to={"/SignUp"}>
                 Sign Up
               </Link>
             </p>
