@@ -3,7 +3,7 @@ import hero_slide_1 from "../assets/image/hero_slide1.png";
 
 const Hero = () => {
   return (
-    <div className=" bg-heroBg min-h-[94vh] bg-cover bg-center text-white">
+    <div className=" bg-heroBg  bg-cover bg-center text-white">
       <div className=" container mx-auto px-3 py-9 sm:px-10 md:py-40">
         <div className=" space-y-2 md:space-y-0">
           <div className=" flex flex-col items-center gap-y-3 md:flex-row md:justify-between">
