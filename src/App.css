@@ -1,0 +1,5 @@
+ul a.active {
+  color: #f48143;
+  transition: all;
+  transition-duration: .3s;
+}
