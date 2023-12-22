@@ -36,13 +36,12 @@ const Navbar = () => {
             <NavLink onClick={() => setToggle(!toggle)} to={"/Contact"}>
               Contact
             </NavLink>
-            <div className="flex items-center justify-between   rounded-full border border-orange_shade_4 px-3  ring-orange_primary focus-within:ring-2  sm:w-3/4">
+            <div className="flex items-center justify-between   rounded-full border border-orange_shade_4 px-3  ring-orange_primary focus-within:ring-2  sm:w-3/5">
               <form className=" w-full ">
                 <input
                   className="w-full bg-transparent px-1 py-2  text-sm text-white outline-none "
                   type="text"
                   name="search"
-                  id="search"
                 />
               </form>
               <span>
@@ -51,7 +50,7 @@ const Navbar = () => {
             </div>
             <Link
               onClick={() => setToggle(!toggle)}
-              className=" rounded-full bg-orange_primary py-3 text-center font-medium ring-orange-300 active:ring sm:w-3/4"
+              className=" rounded-full bg-orange_primary py-3 text-center font-medium ring-orange-300 active:ring sm:w-3/5"
               to={"/Login"}
             >
               Login
@@ -72,7 +71,6 @@ const Navbar = () => {
                   className="w-full bg-transparent px-2 py-2 text-sm text-white  outline-none sm:text-base "
                   type="text"
                   name="search"
-                  id="search"
                 />
               </form>
               <span>
