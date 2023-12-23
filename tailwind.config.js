@@ -27,8 +27,12 @@ export default {
       fontFamily: {
         robot: "'Roboto', sans-serif",
         imperial: "'Imperial Script', cursive",
-        mont: "Montserrat', sans-serif",
+        mont: "'Montserrat', sans-serif",
         popins: "'Poppins', sans-serif",
+      },
+      fontSize: {
+        "2xs": "10px",
+        "3xs": "8px",
       },
       screens: {
         desk: "375px",
