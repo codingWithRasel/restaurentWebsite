@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
             <Link
               onClick={() => setToggle(!toggle)}
-              className=" rounded-full bg-orange_primary py-3 text-center font-medium ring-orange-300 active:ring sm:w-3/5"
+              className=" rounded-full bg-orange_primary py-3 text-center font-mont font-medium ring-orange-300 active:ring sm:w-3/5"
               to={"/Login"}
             >
               Login
@@ -91,7 +91,7 @@ const Navbar = () => {
 
           <span>
             <Link
-              className=" hidden rounded-full bg-orange_primary px-10 py-2 text-center text-lg font-medium ring-orange-300 active:ring md:block  md:py-3"
+              className=" hidden rounded-full bg-orange_primary px-10 py-2 text-center font-mont text-lg font-medium ring-orange-300 active:ring md:block  md:py-3"
               to={"/Login"}
             >
               Login

@@ -35,10 +35,10 @@ const Login = () => {
           </div>
           <form onSubmit={handleSubmit}>
             <div className=" flex flex-col gap-y-4">
-              <div className="bg-input flex items-center space-x-4 rounded-2xl p-4">
+              <div className="flex items-center space-x-4 rounded-2xl bg-input p-4">
                 <TfiEmail className="  text-xl" />
                 <input
-                  className="placeholder:font-popins w-full  bg-transparent pr-5 outline-none placeholder:text-sm"
+                  className="w-full bg-transparent  pr-5 outline-none placeholder:font-popins placeholder:text-sm"
                   type="email"
                   name="email"
                   id="email"
@@ -47,10 +47,10 @@ const Login = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="bg-input flex items-center space-x-4 rounded-2xl px-4">
+              <div className="flex items-center space-x-4 rounded-2xl bg-input px-4">
                 <CiLock className=" text-xl " />
                 <input
-                  className="placeholder:font-popins w-full bg-transparent py-4 pr-5 text-xl outline-none placeholder:text-sm"
+                  className="w-full bg-transparent py-4 pr-5 text-xl outline-none placeholder:font-popins placeholder:text-sm"
                   type={isOpen ? "text" : "password"}
                   name="password"
                   id="password"
@@ -71,7 +71,7 @@ const Login = () => {
               </div>
               <div className="">
                 <button
-                  className=" rounded-full bg-orange_primary px-10 py-3 text-lg text-white"
+                  className=" rounded-full bg-orange_primary px-10 py-3 font-mont text-lg text-white"
                   type="submit"
                 >
                   Login
