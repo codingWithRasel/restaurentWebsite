@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/image/logo.png";
 import search_logo from "../assets/image/search.png";
 import cart_logo from "../assets/image/cart_logo.png";
@@ -8,6 +8,12 @@ import { Link, NavLink } from "react-router-dom";
 import "../App.css";
 const Navbar = () => {
   const [toggle, setToggle] = useState(true);
+  useEffect(() => {
+    const html = document.querySelector("html");
+    if (html) {
+      html.style.overflow = toggle ? "auto" : "hidden";
+    }
+  }, [toggle]);
   return (
     <header className=" bg-dark_1 shadow">
       <div className="container mx-auto flex items-center justify-between p-3 ">
@@ -16,9 +22,9 @@ const Navbar = () => {
         </div>
         {/* for mobile */}
         <div
-          className={`bottom-0 top-0 w-9/12 p-10 duration-300 ease-in md:hidden ${
+          className={`bottom-0 top-0 z-50 w-9/12 p-10 duration-300 ease-in md:hidden ${
             toggle ? " -translate-x-full" : " translate-x-0"
-          } absolute left-0 z-10 bg-dark_1`}
+          } absolute left-0 bg-dark_1`}
         >
           <ul className=" flex flex-col  gap-5 text-lg text-dark_7">
             <NavLink onClick={() => setToggle(!toggle)} to={"/"}>
@@ -98,7 +104,7 @@ const Navbar = () => {
             </Link>
           </span>
           {/* hamburg section  */}
-          <span>
+          <span className=" z-50">
             <button
               className=" block  md:hidden"
               onClick={() => setToggle(!toggle)}
@@ -112,6 +118,10 @@ const Navbar = () => {
           </span>
         </div>
       </div>
+      {/* for blur  */}
+      {!toggle && (
+        <div className="absolute inset-0 z-30 backdrop-blur-sm md:hidden"></div>
+      )}
     </header>
   );
 };
