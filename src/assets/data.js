@@ -21,7 +21,7 @@ let all_data = [
   {
     id: 3,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "breakfast",
     price: 325,
   },
@@ -49,7 +49,7 @@ let all_data = [
   {
     id: 7,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "breakfast",
     price: 325,
   },
@@ -77,7 +77,7 @@ let all_data = [
   {
     id: 11,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "dessert",
     price: 325,
   },
@@ -105,7 +105,7 @@ let all_data = [
   {
     id: 15,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "dessert",
     price: 325,
   },
@@ -133,7 +133,7 @@ let all_data = [
   {
     id: 19,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "lunch",
     price: 325,
   },
@@ -161,7 +161,7 @@ let all_data = [
   {
     id: 23,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "lunch",
     price: 325,
   },
@@ -189,7 +189,7 @@ let all_data = [
   {
     id: 27,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "dinner",
     price: 325,
   },
@@ -217,7 +217,7 @@ let all_data = [
   {
     id: 31,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "dinner",
     price: 325,
   },
@@ -245,7 +245,7 @@ let all_data = [
   {
     id: 35,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "popular",
     price: 325,
   },
@@ -273,7 +273,7 @@ let all_data = [
   {
     id: 39,
     image: img3,
-    menuName: "Barbecue grill Chicken , grilled food",
+    menuName: "Barbecue grill  , grilled food",
     category: "popular",
     price: 325,
   },

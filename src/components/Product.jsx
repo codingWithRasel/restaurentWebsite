@@ -13,8 +13,8 @@ const Product = () => {
         "
         >
           {" "}
-          <h3 className=" text-lg md:text-[40px]">Discover</h3>
-          <h2 className=" text-2xl md:text-[42px]">Our Specialist Cuisine</h2>
+          <h3 className=" text-lg md:text-[40px]">Product</h3>
+          <h2 className=" text-2xl md:text-[42px]">Most Popular Item</h2>
         </div>
         <div className="flex flex-wrap justify-around gap-5">
           {datas.map((data) => {
