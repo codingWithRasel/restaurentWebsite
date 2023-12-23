@@ -18,7 +18,7 @@ const Navbar = () => {
         <div
           className={`bottom-0 top-0 w-9/12 p-10 duration-300 ease-in md:hidden ${
             toggle ? " -translate-x-full" : " translate-x-0"
-          } absolute left-0 bg-dark_1`}
+          } absolute left-0 z-10 bg-dark_1`}
         >
           <ul className=" flex flex-col  gap-5 text-lg text-dark_7">
             <NavLink onClick={() => setToggle(!toggle)} to={"/"}>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <NavLink onClick={() => setToggle(!toggle)} to={"/Contact"}>
               Contact
             </NavLink>
-            <div className="flex items-center justify-between   rounded-full border border-orange_shade_4 px-3  ring-orange_primary focus-within:ring-2  sm:w-3/5">
+            <div className="flex items-center justify-between rounded-full border border-orange_shade_4 px-3  ring-orange_primary focus-within:ring-2  sm:w-3/5">
               <form className=" w-full ">
                 <input
                   className="w-full bg-transparent px-1 py-2  text-sm text-white outline-none "
