@@ -1,6 +1,6 @@
 import React from "react";
 import { useMenuContext } from "../context/MenuContext";
-import Item from "./item";
+import Item from "./Item";
 
 const Product = () => {
   const { datas } = useMenuContext();
