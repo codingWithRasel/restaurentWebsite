@@ -1,6 +1,14 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import hero_slide_1 from "../assets/image/hero_slide1.png";
+import img1 from "../assets/image/hero_slide1.png";
+import img2 from "../assets/image/hero_slide2.png";
+import img3 from "../assets/image/hero_slide3.png";
+// Import Swiper styles
+import "swiper/css";
 
+// import required modules
+import { Autoplay } from "swiper/modules";
 const Hero = () => {
   return (
     <div className=" bg-heroBg bg-center text-white md:bg-right-top">
@@ -29,12 +37,25 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className=" flex flex-1 lg:justify-end">
-              <img
-                className=" inline-block md:ml-20"
-                src={hero_slide_1}
-                alt="hero_image"
-              />
+            <div className=" lg:justify-end">
+              <Swiper
+                spaceBetween={30}
+                autoplay={{
+                  delay: 2500,
+                }}
+                modules={[Autoplay]}
+                className=" w-[300px] lg:w-[400px] xl:w-[600px] "
+              >
+                <SwiperSlide>
+                  <img src={img1} className=" md:ml-10" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img2} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img3} alt="" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
           {/* formobile */}
