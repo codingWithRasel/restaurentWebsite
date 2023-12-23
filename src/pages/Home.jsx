@@ -5,7 +5,7 @@ import Cuisine from "../components/Cuisine";
 const Home = () => {
   return (
     <div>
-      {/* <Hero /> */}
+      <Hero />
       <Cuisine />
     </div>
   );
