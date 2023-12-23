@@ -5,7 +5,8 @@ export default {
     extend: {
       backgroundImage: {
         heroBg: "url(/src/assets/image/hero_bg.png)",
-        "hero-pattern": "url('/img/hero-pattern.svg')",
+        banner: "url(/src/assets/image/banner_mobile.png)",
+       
       },
       colors: {
         orange_primary: " #F16214",
