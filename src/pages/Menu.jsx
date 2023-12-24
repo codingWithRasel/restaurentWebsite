@@ -8,6 +8,7 @@ const menu = ["All", "Breakfast", "Lunch", "Dinner", "Desert"];
 const Menu = () => {
   const [currentMenu, setCurrentMenu] = useState("All");
   const { datas } = useMenuContext();
+  const [number, setNumber] = useState(4);
   return (
     <div>
       <Banner h2={"Our Menu"} h3={"Fresh  &  Delicios"} />
@@ -39,12 +40,19 @@ const Menu = () => {
           </div>
           <div className="flex flex-wrap justify-around gap-5">
             {currentMenu === "All"
-              ? datas.map((m, i) => <Item key={i} data={m} />)
-              : datas.map((m, i) => {
-                  if (m.category === currentMenu) {
-                    return <Item key={i} data={m} />;
-                  }
-                })}
+              ? datas.slice(0, number).map((m, i) => <Item key={i} data={m} />)
+              : datas
+                  .filter((f) => f.category === currentMenu)
+                  .slice(0, number)
+                  .map((m, i) => <Item key={i} data={m} />)}
+          </div>
+          <div className="flex justify-center">
+            <button
+              className=" rounded-full bg-orange_primary px-6 py-3 font-mont text-xs font-medium text-white md:text-lg"
+              onClick={() => setNumber((prev) => prev + 4)}
+            >
+              View More
+            </button>
           </div>
         </div>
       </div>
