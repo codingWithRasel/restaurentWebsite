@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [toggle]);
   return (
     <header className=" bg-dark_1 shadow">
-      <div className="container mx-auto flex items-center justify-between p-3 ">
+      <div className="container mx-auto flex items-center justify-between p-3 md:px-6 ">
         <div>
           <img src={logo} alt="logo" />
         </div>

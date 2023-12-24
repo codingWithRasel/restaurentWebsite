@@ -8,6 +8,7 @@ import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import Service from "./pages/Service";
 import Reservation from "./pages/Reservation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,14 +20,12 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/SignUp" element={<SignUp />} />
-            <Route path="/Menu" element={<Menu />}/>
-              
-
+            <Route path="/Menu" element={<Menu />} />
             <Route path="/Reservation" element={<Reservation />} />
             <Route path="/Service" element={<Service />} />
             <Route path="/Contact" element={<Contact />} />
-            {/* <Route path="/Menu/Breakfast" element={<Breakfast />} /> */}
           </Routes>
+          <Footer />
         </BrowserRouter>
       </MenuContextProvider>
     </>

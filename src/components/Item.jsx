@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../assets/image/item/wing1.png";
 import rating from "../assets/image/item/rating_star.png";
+import Button from "./Button";
 const Item = ({ data }) => {
   return (
     <div>
@@ -20,9 +21,7 @@ const Item = ({ data }) => {
             <span className="text-3xs text-orange_primary md:text-lg">(5)</span>
           </div>
           <div>
-            <button className=" rounded-full bg-orange_primary px-6 py-3 font-mont text-xs font-medium text-white md:text-lg">
-              Add To Cart
-            </button>
+            <Button Text={"Add To Cart"} onclick={() => console.log(data.id)} />
           </div>
         </div>
       </div>

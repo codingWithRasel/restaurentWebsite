@@ -9,6 +9,7 @@ import "swiper/css";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
+import Button from "./Button";
 const Hero = () => {
   return (
     <div className=" bg-heroBg bg-center text-white md:bg-right-top">
@@ -29,12 +30,13 @@ const Hero = () => {
               </p>
               {/* fordesktop */}
               <div className="hidden justify-start  gap-x-10 md:flex">
-                <button className=" whitespace-nowrap rounded-full bg-orange_primary px-6 py-3">
-                  ORDER NOW
-                </button>
-                <button className="whitespace-nowrap rounded-full border-2 border-orange_primary px-6 py-3">
-                  Book A Table
-                </button>
+                <Button className={"uppercase"} Text={"Order Now"} />
+                <Button
+                  className={
+                    "border-2 border-orange_primary bg-transparent capitalize"
+                  }
+                  Text={"Book A Table"}
+                />
               </div>
             </div>
             <div className=" lg:justify-end">
@@ -60,12 +62,13 @@ const Hero = () => {
           </div>
           {/* formobile */}
           <div className=" flex justify-around md:hidden">
-            <button className=" whitespace-nowrap rounded-full bg-orange_primary px-6 py-3">
-              ORDER NOW
-            </button>
-            <button className="whitespace-nowrap rounded-full border-2 border-orange_primary px-6 py-3">
-              Book A Table
-            </button>
+            <Button className={"uppercase"} Text={"Order Now"} />
+            <Button
+              className={
+                "border-2 border-orange_primary bg-transparent capitalize"
+              }
+              Text={"Book A Table"}
+            />
           </div>
         </div>
       </div>
