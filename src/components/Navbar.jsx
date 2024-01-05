@@ -6,8 +6,10 @@ import hamburg_logo from "../assets/image/hamburg_logo.png";
 import close_hamburg from "../assets/image/close_hamburg.png";
 import { Link, NavLink } from "react-router-dom";
 import "../App.css";
+import { useMenuContext } from "../context/MenuContext";
 const Navbar = () => {
   const [toggle, setToggle] = useState(true);
+  const { cartArray } = useMenuContext();
   useEffect(() => {
     const html = document.querySelector("html");
     if (html) {
@@ -90,7 +92,7 @@ const Navbar = () => {
             <Link to={"/cart"} className="flex">
               <img src={cart_logo} />
               <span className="-ml-2 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-white text-xs font-bold text-orange_primary">
-                {2}
+                {cartArray.length}
               </span>
             </Link>
           </span>

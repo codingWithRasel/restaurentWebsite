@@ -1,8 +1,9 @@
 import React from "react";
-import img from "../assets/image/item/wing1.png";
 import rating from "../assets/image/item/rating_star.png";
 import Button from "./Button";
+import { useMenuContext } from "../context/MenuContext";
 const Item = ({ data }) => {
+  const { addCart } = useMenuContext();
   return (
     <div>
       <div className="w-[165px] rounded-full border bg-dark_1 md:w-52 xl:w-60 2xl:w-72">
@@ -21,7 +22,7 @@ const Item = ({ data }) => {
             <span className="text-3xs text-orange_primary md:text-lg">(5)</span>
           </div>
           <div>
-            <Button Text={"Add To Cart"} onclick={() => console.log(data.id)} />
+            <Button Text={"Add To Cart"} onclick={() => addCart(data)} />
           </div>
         </div>
       </div>

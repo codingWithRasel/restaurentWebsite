@@ -10,6 +10,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Breakfast",
     price: 525,
+    amount: 1,
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Breakfast",
     price: 225,
+    amount: 1,
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Breakfast",
     price: 325,
+    amount: 1,
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Breakfast",
     price: 425,
+    amount: 1,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Breakfast",
     price: 125,
+    amount: 1,
   },
   {
     id: 6,
@@ -45,6 +50,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Breakfast",
     price: 225,
+    amount: 1,
   },
   {
     id: 7,
@@ -52,6 +58,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Breakfast",
     price: 325,
+    amount: 1,
   },
   {
     id: 8,
@@ -59,6 +66,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Breakfast",
     price: 525,
+    amount: 1,
   },
   {
     id: 9,
@@ -66,6 +74,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Desert",
     price: 525,
+    amount: 1,
   },
   {
     id: 10,
@@ -73,6 +82,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Desert",
     price: 225,
+    amount: 1,
   },
   {
     id: 11,
@@ -80,6 +90,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Desert",
     price: 325,
+    amount: 1,
   },
   {
     id: 12,
@@ -87,6 +98,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Desert",
     price: 425,
+    amount: 1,
   },
   {
     id: 13,
@@ -94,6 +106,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Desert",
     price: 125,
+    amount: 1,
   },
   {
     id: 14,
@@ -101,6 +114,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Desert",
     price: 225,
+    amount: 1,
   },
   {
     id: 15,
@@ -108,6 +122,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Desert",
     price: 325,
+    amount: 1,
   },
   {
     id: 16,
@@ -115,6 +130,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Lunch",
     price: 525,
+    amount: 1,
   },
   {
     id: 17,
@@ -122,6 +138,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Lunch",
     price: 525,
+    amount: 1,
   },
   {
     id: 18,
@@ -129,6 +146,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Lunch",
     price: 225,
+    amount: 1,
   },
   {
     id: 19,
@@ -136,6 +154,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Lunch",
     price: 325,
+    amount: 1,
   },
   {
     id: 20,
@@ -143,6 +162,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Lunch",
     price: 425,
+    amount: 1,
   },
   {
     id: 21,
@@ -150,6 +170,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Lunch",
     price: 125,
+    amount: 1,
   },
   {
     id: 22,
@@ -157,6 +178,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Lunch",
     price: 225,
+    amount: 1,
   },
   {
     id: 23,
@@ -164,6 +186,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Lunch",
     price: 325,
+    amount: 1,
   },
   {
     id: 24,
@@ -171,6 +194,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Dinner",
     price: 525,
+    amount: 1,
   },
   {
     id: 25,
@@ -178,6 +202,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Dinner",
     price: 525,
+    amount: 1,
   },
   {
     id: 26,
@@ -185,6 +210,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Dinner",
     price: 225,
+    amount: 1,
   },
   {
     id: 27,
@@ -192,6 +218,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Dinner",
     price: 325,
+    amount: 1,
   },
   {
     id: 28,
@@ -199,6 +226,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "Dinner",
     price: 425,
+    amount: 1,
   },
   {
     id: 29,
@@ -206,6 +234,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Dinner",
     price: 125,
+    amount: 1,
   },
   {
     id: 30,
@@ -213,6 +242,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "Dinner",
     price: 225,
+    amount: 1,
   },
   {
     id: 31,
@@ -220,6 +250,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "Dinner",
     price: 325,
+    amount: 1,
   },
   {
     id: 32,
@@ -227,6 +258,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "popular",
     price: 525,
+    amount: 1,
   },
   {
     id: 33,
@@ -234,6 +266,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "Desert",
     price: 525,
+    amount: 1,
   },
   {
     id: 34,
@@ -241,6 +274,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "popular",
     price: 225,
+    amount: 1,
   },
   {
     id: 35,
@@ -248,6 +282,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "popular",
     price: 325,
+    amount: 1,
   },
   {
     id: 36,
@@ -255,6 +290,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "popular",
     price: 425,
+    amount: 1,
   },
   {
     id: 37,
@@ -262,6 +298,7 @@ let all_data = [
     menuName: "Salmon, Vegetables Salad in Plate",
     category: "popular",
     price: 125,
+    amount: 1,
   },
   {
     id: 38,
@@ -269,6 +306,7 @@ let all_data = [
     menuName: "Greek salad Caesar salad Pasta",
     category: "popular",
     price: 225,
+    amount: 1,
   },
   {
     id: 39,
@@ -276,6 +314,7 @@ let all_data = [
     menuName: "Barbecue grill  , grilled food",
     category: "popular",
     price: 325,
+    amount: 1,
   },
   {
     id: 40,
@@ -283,6 +322,7 @@ let all_data = [
     menuName: "Fried food, food, delicatessen, egg ",
     category: "popular",
     price: 525,
+    amount: 1,
   },
 ];
 export default all_data;
