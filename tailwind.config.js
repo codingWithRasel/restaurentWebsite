@@ -6,7 +6,6 @@ export default {
       backgroundImage: {
         heroBg: "url(/src/assets/image/hero_bg.png)",
         banner: "url(/src/assets/image/banner_mobile.png)",
-       
       },
       colors: {
         orange_primary: " #F16214",
@@ -16,6 +15,8 @@ export default {
         orange_shade_4: " #FCE0D0",
         orange_shade_5: " #FEEFE7",
         orange_shade_6: " #FEF7F3",
+        shadeWhite: "#F5F5F5",
+        shadeText: "#8D8D8D",
         dark_1: "#0D0C0C",
         dark_2: "#3D3D3D",
         dark_3: "#6E6D6D",

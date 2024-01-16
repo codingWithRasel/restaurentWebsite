@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from "react";
 import all_data from "../assets/data";
 // Step 1: Create a React context
 const MenuContext = createContext();
-import img4 from "../assets/image/item/wing4.png";
+
 
 // Step 2: Create a provider component (optional)
 export const MenuContextProvider = ({ children }) => {
